@@ -35,7 +35,6 @@ prepare() {
 
   cd "${_srcdir}"
   # Patch desktop file
-  #cp -p 'gravit-designer.desktop'{,.orig}
   sed -e '/^Exec=/ cExec=gravit-designer' \
       -e '/^MimeType=/ cMimeType=x-scheme-handler/designer;application/gravit-designer-document' \
       -e 's/^X-AppImage-Version=/Version=/' \
