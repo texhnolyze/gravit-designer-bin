@@ -25,7 +25,6 @@ sha256sums=('b64a7b4e77983e20586f82ab1e0f09a749dc21477a8e52832c1ebb9a9eadafc4'
             '1c4673222f28e070258289a363ba1d03b3af87aaca99fee7c05a54c9de5deb2b'
             'd2228771efc34f1ed0953fd8f8cd49f60d72728d230c7f860862c4f2056c0df3'
             '0e6f46da5d7886180908ca6e37106050d7d25b4f0675dc839e8aafab43161ea3')
-PKGEXT='.pkg.tar'
 
 prepare() {
   set -u
